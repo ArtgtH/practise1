@@ -33,6 +33,7 @@ while True:
 
         print(f'Лучший автомобиль: {best_model}')
         print(f'Количество голосов: {votes}')
+        break
 
     try:
         res[vote] += 1
